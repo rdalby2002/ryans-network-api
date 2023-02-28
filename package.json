@@ -1,0 +1,27 @@
+{
+  "name": "ryans-network-api",
+  "version": "1.0.0",
+  "description": "A convenient and versatile No-SQL database for social network platforms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index",
+    "seed": "node utils/seed",
+    "heroku-postbuild": "node utils/seed.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdalby2002/ryans-network-api.git"
+  },
+  "author": "Ryan Dalby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rdalby2002/ryans-network-api/issues"
+  },
+  "homepage": "https://github.com/rdalby2002/ryans-network-api#readme"
+}
