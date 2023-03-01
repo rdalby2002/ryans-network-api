@@ -1,4 +1,5 @@
-const { Schema, Model, Types } = require('mongoose');
+const { Schema, model, Types } = require('mongoose');
+const reactionSchema = require('./Reaction')
 // Import moment module to give thoughts a timestamp
 const moment = require('moment');
 
